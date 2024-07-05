@@ -1,0 +1,45 @@
+.body{
+  background-image: url('/src/assest/images/abstract-background-vector.jpg');
+}
+
+.clock-container{
+
+  max-width: 400px;
+  max-height: 400px;
+  padding: 10px;
+  font-size: 40px;
+  margin: 20px;
+  /* justify-content: center; */
+  text-align: center;
+  font-family: monospace;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+button{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  color: aliceblue;
+}
+.start{
+  background-color: hsl(129, 88%, 44%);
+}
+.start:hover{
+  background-color: hsl(129, 84%, 34%);
+}
+.stop{
+  background-color: hsl(9, 91%, 55%);
+}
+.stop:hover{
+  background-color: hsl(0, 95%, 50%);
+}
+.reset{
+  background-color: hsl(200, 90%, 50%);
+}
+.reset:hover{
+  background-color: hsl(215, 90%, 50%);
+}
+span{
+  font-size: 55px;
+}
