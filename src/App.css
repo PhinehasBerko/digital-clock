@@ -1,16 +1,29 @@
-.body{
-  background-image: url('/src/assest/images/abstract-background-vector.jpg');
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
+.clock-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50hv;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bolder;
+}
 .clock-container{
-
+  display: grid;
+  place-items:center;
   max-width: 400px;
   max-height: 400px;
   padding: 10px;
   font-size: 40px;
+  font-weight:bolder;
   margin: 20px;
-  /* justify-content: center; */
-  text-align: center;
   font-family: monospace;
   border: 2px solid black;
   border-radius: 10px;
@@ -29,10 +42,10 @@ button{
   background-color: hsl(129, 84%, 34%);
 }
 .stop{
-  background-color: hsl(9, 91%, 55%);
+  background-color: hsl(0, 96%, 56%);
 }
 .stop:hover{
-  background-color: hsl(0, 95%, 50%);
+  background-color: hsl(0, 94%, 44%);
 }
 .reset{
   background-color: hsl(200, 90%, 50%);
